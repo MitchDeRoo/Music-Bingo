@@ -1,0 +1,13 @@
+# Rider-specific ignores
+*.suo
+*.user
+.vs/
+[Bb]in/
+[Oo]bj/
+.idea/
+_UpgradeReport_Files/
+[Pp]ackages/
+
+Thumbs.db
+Desktop.ini
+.DS_Store
