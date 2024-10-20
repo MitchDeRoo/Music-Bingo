@@ -1,8 +1,12 @@
+using MusicBingo.Playlists;
+
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddControllers();
+
+builder.Services.AddScoped<IPlaylistRepository, PlaylistRepository>();
 
 var app = builder.Build();
 
