@@ -48,7 +48,7 @@ public class BingoCardGeneratorShould
             card.Cells[0][4].Should().Be("O");
 
             // Fill middle cell with Free Space
-            card.Cells[2][2].Should().Be("Free Space");
+            card.Cells[3][2].Should().Be("Free Space");
         }
     }
 }

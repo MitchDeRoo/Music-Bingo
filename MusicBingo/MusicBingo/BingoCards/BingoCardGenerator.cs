@@ -27,7 +27,7 @@ public class BingoCardGenerator
                 for (var col = 0; col < 5; col++)
                 {
                     // Set middle square to be empty space
-                    if (row == 2 && col == 2)
+                    if (row == 3 && col == 2)
                     {
                         card.Cells[row][col] = "Free Space";
                     }
