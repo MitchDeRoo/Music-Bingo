@@ -6,7 +6,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddControllers();
 
-builder.Services.AddScoped<IPlaylistRepository, PlaylistRepository>();
+builder.Services.AddSingleton<IPlaylistRepository, PlaylistRepository>();
 
 var app = builder.Build();
 
