@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicBingo", "MusicBingo\MusicBingo.csproj", "{075A45FE-7CAE-49DB-81BE-7B1A86DB44D0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicBingo.Tests", "MusicBingo.Tests\MusicBingo.Tests.csproj", "{8DFD0052-4DB1-4268-B5A4-0BA97580A240}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{075A45FE-7CAE-49DB-81BE-7B1A86DB44D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{075A45FE-7CAE-49DB-81BE-7B1A86DB44D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{075A45FE-7CAE-49DB-81BE-7B1A86DB44D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DFD0052-4DB1-4268-B5A4-0BA97580A240}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DFD0052-4DB1-4268-B5A4-0BA97580A240}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DFD0052-4DB1-4268-B5A4-0BA97580A240}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DFD0052-4DB1-4268-B5A4-0BA97580A240}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
