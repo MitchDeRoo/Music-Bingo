@@ -1,3 +1,4 @@
+using MusicBingo.BingoCards;
 using MusicBingo.Playlists;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -7,6 +8,7 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddControllers();
 
 builder.Services.AddSingleton<IPlaylistRepository, PlaylistRepository>();
+builder.Services.AddSingleton<BingoCardGenerator>();
 
 var app = builder.Build();
 
