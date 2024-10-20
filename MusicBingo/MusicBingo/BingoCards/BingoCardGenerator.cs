@@ -2,7 +2,7 @@ using MusicBingo.Domain;
 
 namespace MusicBingo.BingoCards;
 
-public class BingoCardGenerator
+public class BingoCardGenerator : IBingoCardGenerator
 {
     public List<BingoCard> Generate(Playlist playlist, int numberOfCards)
     {

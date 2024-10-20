@@ -28,7 +28,7 @@ public class BingoDocumentWriterShould
             }
         };
 
-        var memoryStream = writer.WriteBingoCardsToDocument(cards);
+        var memoryStream = writer.WriteToDocument(cards);
 
         memoryStream.Should().BeOfType<MemoryStream>();
         memoryStream.Length.Should().BeGreaterThan(0);

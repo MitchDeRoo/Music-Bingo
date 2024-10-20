@@ -3,9 +3,9 @@ using Xceed.Words.NET;
 
 namespace MusicBingo.Writers;
 
-public class BingoDocumentWriter
+public class BingoDocumentWriter : IBingoDocumentWriter
 {
-    public MemoryStream WriteBingoCardsToDocument(List<BingoCard> cards)
+    public MemoryStream WriteToDocument(List<BingoCard> cards)
     {
         var memoryStream = new MemoryStream();
 
